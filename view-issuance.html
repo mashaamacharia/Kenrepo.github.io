@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Query Equipment</title>
+    <link rel="stylesheet" href="view-issuance.css">
+</head>
+<body>
+    <div class="query-container">
+        <header>
+            <img src="images\kengenlogo.jpg" alt="KenGen Logo" class="logo">
+            <h1>Query Equipment</h1>
+        </header>
+        
+        <form action="query.php" method="post">
+            <div class="form-group">
+                <label for="prep">Prepared by:</label>
+                <input type="text" id="prep" name="prep">
+            </div>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+            </div>
+            <div class="form-group">
+                <label for="laptop-model">Laptop Model:</label>
+                <input type="text" id="laptop-model" name="laptop-model">
+            </div>
+            <input type="submit" value="Search">
+        </form>
+    </div>
+</body>
+</html>

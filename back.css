@@ -1,0 +1,35 @@
+.back-to-homepage {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.home-icon {
+    width: 85px;
+    height: 80px;
+    transition: transform 0.3s ease, opacity 0.3s ease; /* Smooth transition for hover effects */
+}
+
+/* New animation for hover effect */
+.home-icon:hover {
+    transform: scale(1.2); /* Enlarge the icon */
+    opacity: 0.8; /* Slightly fade the icon */
+}
+
+/* New animation for periodic pulsing */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Apply the pulse animation */
+.home-icon {
+    animation: pulse 1.5s infinite; /* Pulsing effect every 1.5 seconds */
+}

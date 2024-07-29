@@ -1,0 +1,14 @@
+@keyframes shrinkEnlarge {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+}
+
+.error-message {
+    color: red;
+    font-size: large;
+    animation: shrinkEnlarge 1s infinite;
+}

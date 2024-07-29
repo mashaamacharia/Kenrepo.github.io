@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    background-image: url(images/pexels-pixabay-414837.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+}
+
+.form-container {
+    width: 80%;
+    margin: auto;
+    background-color: antiquewhite;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    max-width: 150px;
+    display: block;
+    margin: auto;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.form-details p {
+    margin: 5px 0;
+}
+
+form {
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="checkbox"],
+input[type="radio"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    width: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table th,
+table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #f2f2f2;
+}
+
+h2 {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.notes p {
+    font-size: 14px;
+}
+#submit {
+    color: hsl(300, 5%, 8%);
+    background-color: #4cdd20;
+    font-weight: 300;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+    font-size: large;
+    cursor: pointer;
+    box-shadow: 0 0 5px #0e39c7;
+    text-align: center;
+    margin-left: 60vh;
+    padding: 10px 20px;
+}
+#submit:hover{
+    background-color: #3bad18;
+}

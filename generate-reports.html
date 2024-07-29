@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generate Report</title>
+    <link rel="stylesheet" href="generate-reports.css">
+    <link rel="stylesheet" href="backgroundimage.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="images\kengenlogo.jpg" alt="KenGen Logo" class="logo">
+            <h1>Generate Report</h1>
+        </header>
+        
+        <form action="report.php" method="post">
+            <div class="form-group">
+                <label for="prep">Prepared by:</label>
+                <input type="text" id="prep" name="prep" required>
+            </div>
+            <input type="submit" value="Generate Report">
+        </form>
+    </div>
+</body>
+</html>
